@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{45C6AB67-5DF6-454B-B778-65E50F211794}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Stork.JavaImplementation</RootNamespace>
+    <AssemblyName>Stork.JavaImplementation</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Lesson1JavaCode\sigpwned-stork-68021db\pom.xml" />
+    <Content Include="Lesson1JavaCode\sigpwned-stork-68021db\src\main\java\com\sigpwned\stork\io\ParseReader.java" />
+    <Content Include="Lesson1JavaCode\sigpwned-stork-68021db\src\main\java\com\sigpwned\stork\parse\Token.java" />
+    <Content Include="Lesson1JavaCode\sigpwned-stork-68021db\src\main\java\com\sigpwned\stork\parse\Tokenizer.java" />
+    <Content Include="Lesson1JavaCode\sigpwned-stork-68021db\src\main\java\com\sigpwned\stork\Stork.java" />
+    <Content Include="Lesson1JavaCode\sigpwned-stork-68021db\src\test\java\com\sigpwned\com\sigpwned\elegy\AppTest.java" />
+    <Content Include="Lesson2JavaCode\sigpwned-stork-ebb8173\pom.xml" />
+    <Content Include="Lesson2JavaCode\sigpwned-stork-ebb8173\src\main\java\com\sigpwned\stork\ast\AST.java" />
+    <Content Include="Lesson2JavaCode\sigpwned-stork-ebb8173\src\main\java\com\sigpwned\stork\ast\Expr.java" />
+    <Content Include="Lesson2JavaCode\sigpwned-stork-ebb8173\src\main\java\com\sigpwned\stork\ast\expr\BinaryOperatorExpr.java" />
+    <Content Include="Lesson2JavaCode\sigpwned-stork-ebb8173\src\main\java\com\sigpwned\stork\ast\expr\FloatExpr.java" />
+    <Content Include="Lesson2JavaCode\sigpwned-stork-ebb8173\src\main\java\com\sigpwned\stork\ast\expr\IntExpr.java" />
+    <Content Include="Lesson2JavaCode\sigpwned-stork-ebb8173\src\main\java\com\sigpwned\stork\ast\expr\UnaryOperatorExpr.java" />
+    <Content Include="Lesson2JavaCode\sigpwned-stork-ebb8173\src\main\java\com\sigpwned\stork\io\ParseReader.java" />
+    <Content Include="Lesson2JavaCode\sigpwned-stork-ebb8173\src\main\java\com\sigpwned\stork\parse\Parser.java" />
+    <Content Include="Lesson2JavaCode\sigpwned-stork-ebb8173\src\main\java\com\sigpwned\stork\parse\Token.java" />
+    <Content Include="Lesson2JavaCode\sigpwned-stork-ebb8173\src\main\java\com\sigpwned\stork\parse\Tokenizer.java" />
+    <Content Include="Lesson2JavaCode\sigpwned-stork-ebb8173\src\main\java\com\sigpwned\stork\Stork.java" />
+    <Content Include="Lesson3JavaCode\sigpwned-stork-d5db49f\pom.xml" />
+    <Content Include="Lesson3JavaCode\sigpwned-stork-d5db49f\src\main\java\com\sigpwned\stork\engine\compilation\ast\AST.java" />
+    <Content Include="Lesson3JavaCode\sigpwned-stork-d5db49f\src\main\java\com\sigpwned\stork\engine\compilation\ast\ExprAST.java" />
+    <Content Include="Lesson3JavaCode\sigpwned-stork-d5db49f\src\main\java\com\sigpwned\stork\engine\compilation\ast\expr\BinaryOperatorExprAST.java" />
+    <Content Include="Lesson3JavaCode\sigpwned-stork-d5db49f\src\main\java\com\sigpwned\stork\engine\compilation\ast\expr\FloatExprAST.java" />
+    <Content Include="Lesson3JavaCode\sigpwned-stork-d5db49f\src\main\java\com\sigpwned\stork\engine\compilation\ast\expr\IntExprAST.java" />
+    <Content Include="Lesson3JavaCode\sigpwned-stork-d5db49f\src\main\java\com\sigpwned\stork\engine\compilation\ast\expr\UnaryOperatorExprAST.java" />
+    <Content Include="Lesson3JavaCode\sigpwned-stork-d5db49f\src\main\java\com\sigpwned\stork\engine\compilation\compiler\DefaultStorkCompiler.java" />
+    <Content Include="Lesson3JavaCode\sigpwned-stork-d5db49f\src\main\java\com\sigpwned\stork\engine\compilation\parse\Parser.java" />
+    <Content Include="Lesson3JavaCode\sigpwned-stork-d5db49f\src\main\java\com\sigpwned\stork\engine\compilation\parse\Token.java" />
+    <Content Include="Lesson3JavaCode\sigpwned-stork-d5db49f\src\main\java\com\sigpwned\stork\engine\compilation\parse\Tokenizer.java" />
+    <Content Include="Lesson3JavaCode\sigpwned-stork-d5db49f\src\main\java\com\sigpwned\stork\engine\compilation\StorkCompiler.java" />
+    <Content Include="Lesson3JavaCode\sigpwned-stork-d5db49f\src\main\java\com\sigpwned\stork\engine\compilation\Type.java" />
+    <Content Include="Lesson3JavaCode\sigpwned-stork-d5db49f\src\main\java\com\sigpwned\stork\engine\compilation\type\NumericType.java" />
+    <Content Include="Lesson3JavaCode\sigpwned-stork-d5db49f\src\main\java\com\sigpwned\stork\engine\compilation\type\numeric\FloatType.java" />
+    <Content Include="Lesson3JavaCode\sigpwned-stork-d5db49f\src\main\java\com\sigpwned\stork\engine\compilation\type\numeric\IntType.java" />
+    <Content Include="Lesson3JavaCode\sigpwned-stork-d5db49f\src\main\java\com\sigpwned\stork\engine\compilation\x\CompilationStorkException.java" />
+    <Content Include="Lesson3JavaCode\sigpwned-stork-d5db49f\src\main\java\com\sigpwned\stork\engine\compilation\x\InternalCompilationStorkException.java" />
+    <Content Include="Lesson3JavaCode\sigpwned-stork-d5db49f\src\main\java\com\sigpwned\stork\engine\compilation\x\NoSuchOperatorException.java" />
+    <Content Include="Lesson3JavaCode\sigpwned-stork-d5db49f\src\main\java\com\sigpwned\stork\engine\runtime\Expr.java" />
+    <Content Include="Lesson3JavaCode\sigpwned-stork-d5db49f\src\main\java\com\sigpwned\stork\engine\runtime\expr\BinaryOperatorExpr.java" />
+    <Content Include="Lesson3JavaCode\sigpwned-stork-d5db49f\src\main\java\com\sigpwned\stork\engine\runtime\expr\FloatExpr.java" />
+    <Content Include="Lesson3JavaCode\sigpwned-stork-d5db49f\src\main\java\com\sigpwned\stork\engine\runtime\expr\IntExpr.java" />
+    <Content Include="Lesson3JavaCode\sigpwned-stork-d5db49f\src\main\java\com\sigpwned\stork\engine\runtime\expr\IntToFloatExpr.java" />
+    <Content Include="Lesson3JavaCode\sigpwned-stork-d5db49f\src\main\java\com\sigpwned\stork\engine\runtime\expr\UnaryOperatorExpr.java" />
+    <Content Include="Lesson3JavaCode\sigpwned-stork-d5db49f\src\main\java\com\sigpwned\stork\engine\runtime\x\DivideByZeroStorkException.java" />
+    <Content Include="Lesson3JavaCode\sigpwned-stork-d5db49f\src\main\java\com\sigpwned\stork\engine\runtime\x\RuntimeStorkException.java" />
+    <Content Include="Lesson3JavaCode\sigpwned-stork-d5db49f\src\main\java\com\sigpwned\stork\io\ParseReader.java" />
+    <Content Include="Lesson3JavaCode\sigpwned-stork-d5db49f\src\main\java\com\sigpwned\stork\Stork.java" />
+    <Content Include="Lesson3JavaCode\sigpwned-stork-d5db49f\src\main\java\com\sigpwned\stork\x\InternalStorkException.java" />
+    <Content Include="Lesson3JavaCode\sigpwned-stork-d5db49f\src\main\java\com\sigpwned\stork\x\StorkException.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\pom.xml" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\compilation\ast\AST.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\compilation\ast\ExprAST.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\compilation\ast\expr\BinaryOperatorExprAST.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\compilation\ast\expr\CastExprAST.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\compilation\ast\expr\FloatExprAST.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\compilation\ast\expr\IntExprAST.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\compilation\ast\expr\UnaryOperatorExprAST.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\compilation\ast\expr\VarExprAST.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\compilation\ast\StmtAST.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\compilation\ast\stmt\DeclareStmtAST.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\compilation\ast\stmt\EvalStmtAST.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\compilation\ast\TypeExpr.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\compilation\Gamma.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\compilation\parse\Parser.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\compilation\parse\Token.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\compilation\parse\Tokenizer.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\compilation\Translator.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\compilation\Type.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\compilation\type\NumericType.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\compilation\type\numeric\FloatType.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\compilation\type\numeric\IntType.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\compilation\x\CompilationStorkException.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\compilation\x\DuplicateVariableException.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\compilation\x\IncompatibleTypesException.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\compilation\x\InternalCompilationStorkException.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\compilation\x\NoSuchOperatorException.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\compilation\x\NotAnLValueException.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\compilation\x\PrecisionLossException.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\compilation\x\UndefinedTypeException.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\compilation\x\UndefinedVariableException.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\compilation\x\UninitializedVariableException.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\runtime\Expr.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\runtime\expr\BinaryOperatorExpr.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\runtime\expr\FloatExpr.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\runtime\expr\FloatToIntExpr.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\runtime\expr\IntExpr.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\runtime\expr\IntToFloatExpr.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\runtime\expr\UnaryOperatorExpr.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\runtime\expr\VarAssignExpr.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\runtime\expr\VarExpr.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\runtime\Scope.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\runtime\Stmt.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\runtime\stmt\DeclareStmt.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\runtime\stmt\EvalStmt.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\runtime\x\DivideByZeroStorkException.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\runtime\x\InternalRuntimeStorkException.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\engine\runtime\x\RuntimeStorkException.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\io\ParseReader.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\Stork.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\x\InternalStorkException.java" />
+    <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\x\StorkException.java" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
