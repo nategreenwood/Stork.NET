@@ -5,8 +5,8 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace StorkCore.Tests
 {
+    using Stork.NET.Core.Engine.Compilation;
     using Stork.NET.Core.IO;
-    using Stork.NET.Core.Parse;
 
     // ReSharper disable InconsistentNaming
 

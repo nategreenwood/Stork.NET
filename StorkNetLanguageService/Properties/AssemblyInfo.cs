@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Nate Greenwood")]
-[assembly: AssemblyProduct("StorkNetLanguageService")]
+[assembly: AssemblyProduct("Stork.NET Language Service Extension")]
 [assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]   

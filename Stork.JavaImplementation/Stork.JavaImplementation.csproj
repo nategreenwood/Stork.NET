@@ -137,6 +137,7 @@
     <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\Stork.java" />
     <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\x\InternalStorkException.java" />
     <Content Include="Lesson4JavaCode\sigpwned-stork-0a9c0d4\src\main\java\com\sigpwned\stork\x\StorkException.java" />
+    <Content Include="README.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

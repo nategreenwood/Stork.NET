@@ -42,37 +42,43 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AST\AST.cs" />
-    <Compile Include="AST\Expr.cs" />
-    <Compile Include="AST\Expressions\BinaryOperatorExpr.cs" />
-    <Compile Include="AST\Expressions\FloatExpr.cs" />
-    <Compile Include="AST\Expressions\IntExpr.cs" />
-    <Compile Include="AST\Expressions\UnaryOperatorExpr.cs" />
-    <Compile Include="Parse\Parser.cs" />
-    <Compile Include="Exceptions\ParseException.cs" />
+    <Compile Include="Engine\Compilation\AST\AST.cs" />
+    <Compile Include="Engine\Runtime\Expr.cs" />
+    <Compile Include="Engine\Runtime\Expr\BinaryOperatorExpr.cs" />
+    <Compile Include="Engine\Runtime\Expr\FloatExpr.cs" />
+    <Compile Include="Engine\Runtime\Expr\IntExpr.cs" />
+    <Compile Include="Engine\Runtime\Expr\UnaryOperatorExpr.cs" />
+    <Compile Include="Engine\Compilation\Parse\Parser.cs" />
+    <Compile Include="Exception\InternalStorkNetException.cs" />
+    <Compile Include="Exception\StorkNetException.cs" />
     <Compile Include="IO\ParseReader.cs" />
-    <Compile Include="Parse\Tokenizer.cs" />
-    <Compile Include="Parse\Types\For.cs" />
-    <Compile Include="Parse\Types\EoF.cs" />
-    <Compile Include="Parse\Types\Slash.cs" />
-    <Compile Include="Parse\Types\Star.cs" />
-    <Compile Include="Parse\Types\Minus.cs" />
-    <Compile Include="Parse\Types\Null.cs" />
-    <Compile Include="Parse\Types\False.cs" />
-    <Compile Include="Parse\Types\Plus.cs" />
-    <Compile Include="Parse\Types\True.cs" />
-    <Compile Include="Parse\Types\While.cs" />
-    <Compile Include="Parse\Types\Float.cs" />
-    <Compile Include="Parse\Types\If.cs" />
-    <Compile Include="Parse\Types\Int.cs" />
-    <Compile Include="Parse\Types\MetaType.cs" />
-    <Compile Include="Parse\Token.cs" />
-    <Compile Include="Parse\TokenType.cs" />
-    <Compile Include="Parse\Types\String.cs" />
-    <Compile Include="Parse\Types\Symbol.cs" />
+    <Compile Include="Engine\Compilation\Parse\Tokenizer.cs" />
+    <Compile Include="Engine\Compilation\Parse\Types\For.cs" />
+    <Compile Include="Engine\Compilation\Parse\Types\EoF.cs" />
+    <Compile Include="Engine\Compilation\Parse\Types\Slash.cs" />
+    <Compile Include="Engine\Compilation\Parse\Types\Star.cs" />
+    <Compile Include="Engine\Compilation\Parse\Types\Minus.cs" />
+    <Compile Include="Engine\Compilation\Parse\Types\Null.cs" />
+    <Compile Include="Engine\Compilation\Parse\Types\False.cs" />
+    <Compile Include="Engine\Compilation\Parse\Types\Plus.cs" />
+    <Compile Include="Engine\Compilation\Parse\Types\True.cs" />
+    <Compile Include="Engine\Compilation\Parse\Types\While.cs" />
+    <Compile Include="Engine\Compilation\Parse\Types\Float.cs" />
+    <Compile Include="Engine\Compilation\Parse\Types\If.cs" />
+    <Compile Include="Engine\Compilation\Parse\Types\Int.cs" />
+    <Compile Include="Engine\Compilation\Parse\Types\MetaType.cs" />
+    <Compile Include="Engine\Compilation\Parse\Token.cs" />
+    <Compile Include="Engine\Compilation\Parse\TokenType.cs" />
+    <Compile Include="Engine\Compilation\Parse\Types\String.cs" />
+    <Compile Include="Engine\Compilation\Parse\Types\Symbol.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Engine\Compilation\Exception\" />
+    <Folder Include="Engine\Compilation\Type\Numeric\" />
+    <Folder Include="Engine\Runtime\Exception\" />
+    <Folder Include="Engine\Runtime\Stmt\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
