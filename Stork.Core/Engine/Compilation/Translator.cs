@@ -9,10 +9,36 @@ namespace Stork.NET.Core.Engine.Compilation
 
     public class Translator
     {
+        private Gamma _global;
+
         public Translator()
         {
-            
+            _global = new Gamma();
+            _global.AddType("Int", Type.INT);
+            _global.AddType("Float", Type.FLOAT);
         }
+
+        protected Gamma GetGlobe()
+        {
+            return _global;
+        }
+
+        #region STATEMENT TRANSLATION
+
+        public Stmt Translate(EvalStmtAST ast)
+        {
+            return new object() as Stmt;
+        }
+
+
+        public Stmt Translate(DeclareStmtAST ast)
+        {
+            return new object() as Stmt;
+        }
+
+        #endregion
+
+        #region EXPRESSION TRANSLATION
 
         public Expr Translate(ExprAST expr)
         {
@@ -33,5 +59,15 @@ namespace Stork.NET.Core.Engine.Compilation
         {
             return new object() as Type;
         }
+
+        #endregion
+
+        #region TYPE EVALUATION
+
+        #endregion
+
+        #region UTILITY
+
+        #endregion
     }
 }

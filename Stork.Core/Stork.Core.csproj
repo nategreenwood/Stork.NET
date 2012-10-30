@@ -51,6 +51,8 @@
     <Compile Include="Engine\Compilation\AST\Expr\UnaryOperatorExprAST.cs" />
     <Compile Include="Engine\Compilation\AST\Expr\VarExprAST.cs" />
     <Compile Include="Engine\Compilation\AST\StmtAST.cs" />
+    <Compile Include="Engine\Compilation\AST\Stmt\DeclareStmtAST.cs" />
+    <Compile Include="Engine\Compilation\AST\Stmt\EvalStmtAST.cs" />
     <Compile Include="Engine\Compilation\AST\TypeExpr.cs" />
     <Compile Include="Engine\Compilation\Exception\InternalCompilationStorkNetException.cs" />
     <Compile Include="Engine\Compilation\Gamma.cs" />
@@ -65,6 +67,8 @@
     <Compile Include="Engine\Runtime\Expr\IntExpr.cs" />
     <Compile Include="Engine\Runtime\Expr\UnaryOperatorExpr.cs" />
     <Compile Include="Engine\Compilation\Parse\Parser.cs" />
+    <Compile Include="Engine\Runtime\Scope.cs" />
+    <Compile Include="Engine\Runtime\Stmt.cs" />
     <Compile Include="Exception\InternalStorkNetException.cs" />
     <Compile Include="Exception\StorkNetException.cs" />
     <Compile Include="IO\ParseReader.cs" />
@@ -90,7 +94,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Engine\Compilation\AST\Stmt\" />
     <Folder Include="Engine\Runtime\Exception\" />
     <Folder Include="Engine\Runtime\Stmt\" />
   </ItemGroup>

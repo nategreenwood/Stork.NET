@@ -13,6 +13,21 @@
             return (BinaryOperatorExprAST)this;
         }
 
+        public UnaryOperatorExprAST AsUnaryOperator()
+        {
+            return (UnaryOperatorExprAST) this;
+        }
+
+        public IntExprAST AsInt()
+        {
+            return (IntExprAST) this;
+        }
+
+        public FloatExprAST AsFloat()
+        {
+            return (FloatExprAST) this;
+        }
+
         public abstract Expr Translate(Translator translator);
 
         public abstract Expr Assign(Translator translator, ExprAST value);
