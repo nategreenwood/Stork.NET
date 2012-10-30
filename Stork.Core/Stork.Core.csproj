@@ -43,6 +43,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Engine\Compilation\AST\AST.cs" />
+    <Compile Include="Engine\Compilation\AST\ExprAST.cs" />
+    <Compile Include="Engine\Compilation\AST\Expr\BinaryOperatorExprAST.cs" />
+    <Compile Include="Engine\Compilation\AST\Expr\CastExprAST.cs" />
+    <Compile Include="Engine\Compilation\AST\Expr\FloatExprAST.cs" />
+    <Compile Include="Engine\Compilation\AST\Expr\IntExprAST.cs" />
+    <Compile Include="Engine\Compilation\AST\Expr\UnaryOperatorExprAST.cs" />
+    <Compile Include="Engine\Compilation\AST\Expr\VarExprAST.cs" />
+    <Compile Include="Engine\Compilation\AST\StmtAST.cs" />
+    <Compile Include="Engine\Compilation\AST\TypeExpr.cs" />
+    <Compile Include="Engine\Compilation\Exception\InternalCompilationStorkNetException.cs" />
+    <Compile Include="Engine\Compilation\Gamma.cs" />
+    <Compile Include="Engine\Compilation\Translator.cs" />
+    <Compile Include="Engine\Compilation\Type.cs" />
+    <Compile Include="Engine\Compilation\Type\NumericType.cs" />
+    <Compile Include="Engine\Compilation\Type\Numeric\IntType.cs" />
+    <Compile Include="Engine\Compilation\Type\Numeric\FloatType.cs" />
     <Compile Include="Engine\Runtime\Expr.cs" />
     <Compile Include="Engine\Runtime\Expr\BinaryOperatorExpr.cs" />
     <Compile Include="Engine\Runtime\Expr\FloatExpr.cs" />
@@ -74,8 +90,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Engine\Compilation\Exception\" />
-    <Folder Include="Engine\Compilation\Type\Numeric\" />
+    <Folder Include="Engine\Compilation\AST\Stmt\" />
     <Folder Include="Engine\Runtime\Exception\" />
     <Folder Include="Engine\Runtime\Stmt\" />
   </ItemGroup>

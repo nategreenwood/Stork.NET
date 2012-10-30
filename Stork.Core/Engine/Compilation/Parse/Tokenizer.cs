@@ -28,7 +28,7 @@
             _operatorCharacters = new HashSet<char>();
             _operatorTypes = new Dictionary<string, MetaType>();
 
-            Type[] localTypes = Assembly.GetExecutingAssembly().GetTypes();
+            System.Type[] localTypes = Assembly.GetExecutingAssembly().GetTypes();
 
             // Find all keyword types in this assembly. 
             // Default location is \Parse\Types
@@ -41,7 +41,7 @@
 
                     // All classes that we're loading here may have a single 
                     // parameter constructor. 
-                    var ctor = localType.GetConstructor(new Type[] { typeof(string) });
+                    var ctor = localType.GetConstructor(new System.Type[] { typeof(string) });
 
                     TokenType t;
                     if (ctor != null)
