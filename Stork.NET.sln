@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stork.ConsoleHarness", "Sto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stork.JavaImplementation", "Stork.JavaImplementation\Stork.JavaImplementation.csproj", "{45C6AB67-5DF6-454B-B778-65E50F211794}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorkNetLanguageService", "StorkNetLanguageService\StorkNetLanguageService.csproj", "{553CD836-A025-409C-8B27-81368372D969}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorkNetVSLanguage", "StorkNetVSLanguage\StorkNetVSLanguage.csproj", "{3DF542CA-9BC5-4C11-B31F-AF9466C901ED}"
 EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
@@ -29,9 +29,9 @@ Global
 		SccProjectUniqueName4 = Stork.JavaImplementation\\Stork.JavaImplementation.csproj
 		SccProjectName4 = Stork.JavaImplementation
 		SccLocalPath4 = Stork.JavaImplementation
-		SccProjectUniqueName5 = StorkNetLanguageService\\StorkNetLanguageService.csproj
-		SccProjectName5 = StorkNetLanguageService
-		SccLocalPath5 = StorkNetLanguageService
+		SccProjectUniqueName5 = StorkNetVSLanguage\\StorkNetVSLanguage.csproj
+		SccProjectName5 = StorkNetVSLanguage
+		SccLocalPath5 = StorkNetVSLanguage
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,7 +55,6 @@ Global
 		{CFE20657-D02F-455E-B245-A2C94E3ABEC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CFE20657-D02F-455E-B245-A2C94E3ABEC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFE20657-D02F-455E-B245-A2C94E3ABEC4}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{CFE20657-D02F-455E-B245-A2C94E3ABEC4}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
 		{CFE20657-D02F-455E-B245-A2C94E3ABEC4}.Debug|Win32.ActiveCfg = Debug|Any CPU
 		{CFE20657-D02F-455E-B245-A2C94E3ABEC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFE20657-D02F-455E-B245-A2C94E3ABEC4}.Release|Any CPU.Build.0 = Release|Any CPU
@@ -80,16 +79,16 @@ Global
 		{45C6AB67-5DF6-454B-B778-65E50F211794}.Release|Any CPU.Build.0 = Release|Any CPU
 		{45C6AB67-5DF6-454B-B778-65E50F211794}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{45C6AB67-5DF6-454B-B778-65E50F211794}.Release|Win32.ActiveCfg = Release|Any CPU
-		{553CD836-A025-409C-8B27-81368372D969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{553CD836-A025-409C-8B27-81368372D969}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{553CD836-A025-409C-8B27-81368372D969}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{553CD836-A025-409C-8B27-81368372D969}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{553CD836-A025-409C-8B27-81368372D969}.Debug|Win32.ActiveCfg = Debug|Any CPU
-		{553CD836-A025-409C-8B27-81368372D969}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{553CD836-A025-409C-8B27-81368372D969}.Release|Any CPU.Build.0 = Release|Any CPU
-		{553CD836-A025-409C-8B27-81368372D969}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{553CD836-A025-409C-8B27-81368372D969}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{553CD836-A025-409C-8B27-81368372D969}.Release|Win32.ActiveCfg = Release|Any CPU
+		{3DF542CA-9BC5-4C11-B31F-AF9466C901ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DF542CA-9BC5-4C11-B31F-AF9466C901ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DF542CA-9BC5-4C11-B31F-AF9466C901ED}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3DF542CA-9BC5-4C11-B31F-AF9466C901ED}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3DF542CA-9BC5-4C11-B31F-AF9466C901ED}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{3DF542CA-9BC5-4C11-B31F-AF9466C901ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DF542CA-9BC5-4C11-B31F-AF9466C901ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DF542CA-9BC5-4C11-B31F-AF9466C901ED}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3DF542CA-9BC5-4C11-B31F-AF9466C901ED}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3DF542CA-9BC5-4C11-B31F-AF9466C901ED}.Release|Win32.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

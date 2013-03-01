@@ -25,40 +25,69 @@
 
         #region Member Methods
 
-        public Expr Expr()
+
+
+        public StmtAST Stmt()
+        {
+            StmtAST result = null;
+
+            return result;
+        }
+
+        protected void Term()
+        {
+            if(Tokens.PeekType().GetText() == new EoF().GetText())
+            {
+                // Do nothing. EoF qualifies as statement terminator
+            }
+            else if(Tokens.PeekType().GetText() == new SemiColon().GetText())
+            {
+                // Semicolon is explicit statement terminator
+                
+            }
+        }
+
+        protected ExprAST Expr()
         {
             return Expr1();
         }
 
-        protected Expr Expr1()
+        protected ExprAST Expr1()
         {
-            Expr result = Expr2();
+            ExprAST result = Expr2();
 
             return result;
         }
 
-        protected Expr Expr2()
+        protected ExprAST Expr2()
         {
-            Expr result = Expr3();
+            ExprAST result = Expr3();
 
             return result;
         }
 
-        protected Expr Expr3()
+        protected ExprAST Expr3()
         {
-            Expr result = null;
+            ExprAST result = null;
 
             return result;
         }
 
-        protected Expr Expr4()
+        protected ExprAST Expr4()
+        {
+            ExprAST result = null;
+
+            return result;
+        }
+        
+        public ExprAST Expr5()
         {
             return Value();
         }
 
-        protected Expr Value()
+        protected ExprAST Value()
         {
-            Expr result = null;
+            ExprAST result = null;
 
 
             return result;

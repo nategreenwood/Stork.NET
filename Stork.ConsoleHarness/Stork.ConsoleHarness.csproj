@@ -58,10 +58,6 @@
     <Content Include="ExampleTextFiles\SampleInputFileForTokenization.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="java\com\sigpwned\stork\io\ParseReader.java" />
-    <Content Include="java\com\sigpwned\stork\parse\Token.java" />
-    <Content Include="java\com\sigpwned\stork\parse\Tokenizer.java" />
-    <Content Include="java\com\sigpwned\stork\Stork.java" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

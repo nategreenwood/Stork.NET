@@ -55,12 +55,22 @@
     <Compile Include="Engine\Compilation\AST\Stmt\EvalStmtAST.cs" />
     <Compile Include="Engine\Compilation\AST\TypeExpr.cs" />
     <Compile Include="Engine\Compilation\Exception\InternalCompilationStorkNetException.cs" />
+    <Compile Include="Engine\Compilation\Exception\ParseException.cs" />
     <Compile Include="Engine\Compilation\Gamma.cs" />
+    <Compile Include="Engine\Compilation\Parse\Types\Cast.cs" />
+    <Compile Include="Engine\Compilation\Parse\Types\Colon.cs" />
+    <Compile Include="Engine\Compilation\Parse\Types\SemiColon.cs" />
+    <Compile Include="Engine\Compilation\Parse\Types\Eq.cs" />
+    <Compile Include="Engine\Compilation\Parse\Types\RParen.cs" />
+    <Compile Include="Engine\Compilation\Parse\Types\LParen.cs" />
+    <Compile Include="Engine\Compilation\Parse\Types\Percent.cs" />
+    <Compile Include="Engine\Compilation\Parse\Types\Var.cs" />
     <Compile Include="Engine\Compilation\Translator.cs" />
     <Compile Include="Engine\Compilation\Type.cs" />
     <Compile Include="Engine\Compilation\Type\NumericType.cs" />
     <Compile Include="Engine\Compilation\Type\Numeric\IntType.cs" />
     <Compile Include="Engine\Compilation\Type\Numeric\FloatType.cs" />
+    <Compile Include="Engine\Runtime\Exception\InternalRuntimeStorkNetException.cs" />
     <Compile Include="Engine\Runtime\Expr.cs" />
     <Compile Include="Engine\Runtime\Expr\BinaryOperatorExpr.cs" />
     <Compile Include="Engine\Runtime\Expr\FloatExpr.cs" />
@@ -94,7 +104,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Engine\Runtime\Exception\" />
     <Folder Include="Engine\Runtime\Stmt\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

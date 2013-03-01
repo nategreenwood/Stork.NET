@@ -15,7 +15,7 @@
         {
         }
 
-        public MetaType GetType()
+        public new MetaType GetType()
         {
             return _metaType;
         }
